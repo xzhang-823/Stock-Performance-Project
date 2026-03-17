@@ -11,7 +11,10 @@ This dashboard provides a comprehensive view of stock market performance by comb
 Key questions the dashboard helps answer:
 
 ### **1. How has the stock price evolved over time?**    
-The dashboard visualizes stock price behavior using candlestick charts that display open, high, low, and close prices. This allows users to identify market trends, volatility, and turning points in price movement.
+The dashboard visualizes stock price behavior using candlestick charts that display open, high, low, and close prices. This allows users to identify market trends, volatility, and turning points in price movement.    
+
+### **JPMorgan (JPM) – Candlestick Analysis**     
+<img width="1470" height="956" alt="Chase candlestick stock performance" src="https://github.com/user-attachments/assets/fb161008-feb4-4182-b3ef-267dd26a30f9" />
 
 ### **2. How do short-term and long-term trends compare?**    
 Moving averages are used to evaluate trend direction:
@@ -22,7 +25,11 @@ Moving averages are used to evaluate trend direction:
 
 **MA50** – long-term trend
 
-Comparing these indicators helps reveal potential momentum shifts and trend changes.
+Comparing these indicators helps reveal potential momentum shifts and trend changes.    
+
+### **Microsoft (MSFT) – Moving Average Trend Analysis**
+<img width="1470" height="956" alt="Microsoft stock with MA" src="https://github.com/user-attachments/assets/aa025754-73e0-403b-87ad-e6d9b1a039b4" />
+
 
 ### **3. How does trading volume support price movements?**     
 Trading activity is analyzed through daily trading volume and a Volume Oscillator.
@@ -31,7 +38,10 @@ The volume oscillator compares short-term and long-term trading activity:
 
 **Volume Oscillator = (VMA5 - VMA20) / VMA20**    
 
-Positive values suggest stronger market participation, while negative values indicate weakening trading momentum.
+Positive values suggest stronger market participation, while negative values indicate weakening trading momentum.    
+
+### **Apple (AAPL) – Volume Analysis**
+<img width="1470" height="956" alt="Apple volume performance" src="https://github.com/user-attachments/assets/db7a878b-92f8-4466-95ef-c1b126efefdc" />
 
 ### **4. How would an investment perform over time?**    
 The dashboard includes an Indexed Price Performance metric, calculated as:
@@ -41,6 +51,9 @@ The dashboard includes an Indexed Price Performance metric, calculated as:
 This allows users to interpret performance in a simple way:    
 
 If $100 was invested at the selected Start Date, the index shows how much the investment would be worth at End Date.    
+
+### **Tesla (TSLA) – Investment Performance Example**
+<img width="1470" height="956" alt="Tesla stock performance" src="https://github.com/user-attachments/assets/08e35ee6-33c7-41dd-a6d8-e6dbb188ba2b" />
 
 Data Structure Overview
 
